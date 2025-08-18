@@ -96,7 +96,7 @@
 
 ### 5. Prática Guiada – Testes Simples (45min)
 
-Você conduz no quadro e eles acompanham no PC.
+Eu conduzo no quadro e eles acompanham no PC.
 
 Funções para implementar + testar:
 
