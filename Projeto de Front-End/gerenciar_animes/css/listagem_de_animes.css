@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+}
+
+.borda {
+  border: 1px solid red;
+}
+
+.borda2 {
+  border: 1px solid blue;
+}
+
+#workspace {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navegacao {
+  display: flex;
+  width: 20vw;
+  height: 100vh;
+  position: static;
+  flex-direction: column;
+}
+
+#content {
+  width: 80vw;
+  display: flex;
+  height: 100vh;
+}
+
+#navHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 22vh;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+#logo {
+  width: 7vw;
+  height: 15vh;
+}
+
+#navTitle {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#navLinks {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#navMenu {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#navMenu li {
+  list-style: none;
+}
+
+.menuItem {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+#btnLogout {
+  height: 1.5rem;
+  border-radius: 1rem;
+  border-width: 1px;
+}
+
+#btnLogout:hover {
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}

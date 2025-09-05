@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/listagem_de_animes.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="workspace">
+      <nav id="navegacao">
+        <div id="navHeader">
+          <img src="../assets/Logo.png" id="logo" alt="Logo" srcset="" />
+          <h1 id="navTitle">Meu primeiro CRUD</h1>
+        </div>
+        <div id="navLinks">
+          <ul id="navMenu">
+            <li>
+              <a class="menuItem" href="./home.html"> Home </a>
+            </li>
+            <li>
+              <a class="menuItem" href="./gerenciar_animes.html">
+                Gerenciar animes
+              </a>
+            </li>
+            <li>
+              <a class="menuItem" href="#"> Listagem de animes </a>
+            </li>
+          </ul>
+          <button onclick="logout()" id="btnLogout" type="submit">
+            Logout
+          </button>
+        </div>
+      </nav>
+      <section id="content" class="borda2"></section>
+    </div>
+    <script src="../js/logout.js"></script>
+    <script src="../router.js"></script>
+  </body>
+</html>

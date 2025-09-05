@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Projeto Turma</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="container">
+        <h1 id="title">Tela de login</h1>
+        <form onsubmit="login(event)" id="loginBox">
+          <div>
+            <label for="username">Username: </label>
+            <input
+              id="username"
+              class="myInput"
+              type="text"
+              name="username"
+              maxlength="30"
+            />
+          </div>
+          <div id="divPass">
+            <label for="password">Password:&nbsp;</label>
+            <input
+              class="myInput"
+              type="password"
+              name="password"
+              maxlength="30"
+              id="password"
+            />
+          </div>
+          <button id="btnSubmit" type="submit" onclick="login()">Login</button>
+        </form>
+      </div>
+    </main>
+    <script type="text/javascript" src="/js/login.js"></script>
+  </body>
+</html>

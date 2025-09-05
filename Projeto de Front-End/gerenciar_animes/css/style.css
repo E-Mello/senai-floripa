@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 40vw;
+    height: 60vh;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    padding-bottom: 2rem;
+}
+
+#loginBox {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 45vh;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.myInput {
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.1rem;
+}
+
+#divPass {
+    padding-bottom: 2rem;
+}
+
+#btnSubmit {
+    width: 8rem;
+    height: 2rem;
+    border-radius: .9rem;
+}
+
+#btnSubmit:hover {
+    background-color: brown;
+    cursor: pointer;
+    color: white;
+    border: white;
+}
